@@ -1,0 +1,13 @@
+pkgname=meta-gnome
+pkgver=1
+pkgrel=2
+arch=('x86_64')
+url="https://github.com/kyceblake"
+pkgdesc='My gnome meta package'
+depends=('qt5-wayland' 'qt6-wayland' 'xdg-desktop-portal-gnome' 'noto-fonts' 'noto-fonts-cjk' 'noto-fonts-emoji'
+        'nautilus' 'gdm' 'gnome-session' 'gnome-shell' 'gnome-control-center' 'gnome-settings-daemon' 'gnome-keyring' 'gnome-console'
+        'gnome-weather' 'gnome-backgrounds' 'gnome-disk-utility' 'gnome-font-viewer' 'evince' 'baobab' 'sushi' 'loupe' 'simple-scan'
+        'firefox' 'vesktop' 'file-roller' 'celluloid' 'fragments' 'spotify' 'pavucontrol' 'pamac-aur' 'obs-studio' 'handbrake'
+        'extension-manager' 'gdm-settings' 'adw-gtk-theme'
+        'gvfs' 'gvfs-afc' 'gvfs-mtp'
+        )

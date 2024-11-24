@@ -1,0 +1,9 @@
+pkgname=meta-base
+pkgver=1
+pkgrel=2
+arch=('x86_64')
+url="https://github.com/kyceblake"
+pkgdesc='My meta package for base system'
+depends=('base' 'base-devel' 'linux-zen' 'linux-zen-headers' 'linux-firmware' 'grub' 'efibootmgr' 
+         'networkmanager' 'neovim' 'pipewire' 'pipewire-pulse' 'pipewire-jack' 'pipewire-alsa' 
+         'wireplumber' 'btop' 'p7zip' 'os-prober' 'unrar' 'dosfstools' 'waypipe')

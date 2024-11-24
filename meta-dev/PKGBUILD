@@ -1,0 +1,8 @@
+pkgname=meta-dev
+pkgver=1
+pkgrel=2
+arch=('x86_64')
+url="https://github.com/kyceblake"
+pkgdesc='My dev meta package'
+depends=('nodejs' 'npm' 'pnpm' 'vscodium-marketplace' 'remmina' 'docker' 'docker-compose' 'devtools' 'freerdp' 'python-pip' 'python310'
+        'bat' 'ripgrep' 'fzf' 'tree' 'less')
